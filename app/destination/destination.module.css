@@ -1,0 +1,25 @@
+.planetGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.planetCard {
+  background-color: #14213d;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.planetThumbnail {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 4px;
+}
+
+.planetDescription {
+  margin: 1rem 0;
+}
