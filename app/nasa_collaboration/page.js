@@ -3,8 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './page.module.css';
 
-// Read "/app/nasa_collaboration/README.md" for more info about the API_KEY
-// You need a proper API_KEY for the requests to work
 const API_KEY = 'e7p87rpboHbyoHTcQQKKCaYA1iXtIdNrghisZlcO';
 
 const NASA_URLs = {
@@ -28,7 +26,7 @@ export const NasaCollaboration = () => {
   };
 
   fetchRoverPhotos();
-  fetchDailyImage(); // حالا این درست کار می‌کنه
+  fetchDailyImage(); 
 
     // TASK - React 1 week 3 
     // fetch the extra data for NASA_URLs.astronomyPicOfTheDay and save it to the dailyImg state variable
