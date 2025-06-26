@@ -28,8 +28,6 @@ export const NasaCollaboration = () => {
   fetchRoverPhotos();
   fetchDailyImage(); 
 
-    // TASK - React 1 week 3 
-    // fetch the extra data for NASA_URLs.astronomyPicOfTheDay and save it to the dailyImg state variable
   }, []);
 
   return (
