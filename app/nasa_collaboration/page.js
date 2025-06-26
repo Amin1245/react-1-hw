@@ -1,3 +1,5 @@
+//test
+
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -28,8 +30,6 @@ export const NasaCollaboration = () => {
   fetchRoverPhotos();
   fetchDailyImage(); 
 
-    // TASK - React 1 week 3 
-    // fetch the extra data for NASA_URLs.astronomyPicOfTheDay and save it to the dailyImg state variable
   }, []);
 
   return (
@@ -83,3 +83,5 @@ export const NasaCollaboration = () => {
 }
 
 export default NasaCollaboration;
+
+// TASK - React 1 week 3
